@@ -38,6 +38,20 @@ VitaLite is a launcher for RuneLite that offers additional features and customiz
 4. Test thoroughly
 5. Submit a pull request
 
+## 🎮 Plugins
+
+### Combat Prayer Plugin (New!)
+Our latest addition automatically manages OSRS combat prayers for optimal performance:
+
+- **Auto Prayer Switching**: Detects NPC attack styles (magic/ranged/melee) and applies appropriate protection prayers
+- **Boss-Specific Support**: Pre-configured requirements for 40+ bosses including Vorkath (PIETY), Jad (REDEMPTION), Zulrah (RIGOUR), and more
+- **Proper OSRS Mechanics**: Correct tick timing (1 tick minimum), proper prayer levels, and drain rates
+- **UI Panel**: Visual monitoring of active prayers, combat state, and current target
+
+*Note: This plugin requires manual PR submission due to GitHub API limitations*
+
+## Client Command Line Options
+
 ## Client Command Line Options
 | Option         | Type    | Description                                                                                       |
 |----------------|---------|---------------------------------------------------------------------------------------------------|
@@ -52,6 +66,12 @@ VitaLite is a launcher for RuneLite that offers additional features and customiz
 | `--jagexLogin` | String | details for logging int (sessionID:characterID:displayName)  or path to runelite credentials file |
 | `--proxy`      | String  | Set a proxy server to use (e.g., ip:port or ip:port:username:password)                            |
 | `-disableMouseHook` | Boolean | Disable RuneLite's mousehook rlicn DLL from being loaded or called |
+
+## Available Plugins
+
+| Plugin | Description | Status |
+|--------|-------------|--------|
+| Combat Prayer | Auto-selects protection prayers based on NPC attack style | ✅ Ready |
 
 
 ## Disclaimer
