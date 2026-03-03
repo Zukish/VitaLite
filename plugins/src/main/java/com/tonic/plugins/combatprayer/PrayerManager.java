@@ -10,7 +10,7 @@ import net.runelite.api.NPCComposition;
 import net.runelite.api.Skill;
 import net.runelite.api.gameval.VarbitID;
 import net.runelite.api.events.ChatMessage;
-
+import net.runelite.client.config.ConfigManager;
 import java.util.*;
 
 /**
